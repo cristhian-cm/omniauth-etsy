@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Omniauth::Etsy::VERSION
 
-  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth', '~> 2.0.4'
   gem.add_dependency 'omniauth-oauth', '~> 1.0'
   gem.add_dependency 'multi_json'
 end
